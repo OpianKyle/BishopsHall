@@ -28,7 +28,7 @@ export default function Home() {
       {/* Hero Image Section */}
       <div className="relative h-screen">
         <img
-          src="/assets/image04.jpg"
+          src="/assets/image05.jpg"
           alt="Luxury Villa Interior"
           className="w-full h-full object-cover"
         />
