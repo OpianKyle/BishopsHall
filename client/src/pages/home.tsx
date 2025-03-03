@@ -81,7 +81,7 @@ export default function Home() {
         {/* Constantia Section */}
         <div className="bg-gray-700 w-full">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center min-h-[400px]">
-            <div className="p-12 max-w-xl md:order-2">
+            <div className="p-12 max-w-xl">
               <h2 className="text-3xl font-semibold mb-4 text-white">CONSTANTIA</h2>
               <p className="text-gray-200 mb-6">
                 Constantia is famous for its wine valley, where you can visit some of the oldest vineyards of the Cape. Kirstenbosch Botanical Gardens is also less than 50m walking distance from the villa and just a 20-minute drive away is Central Cape Town.
@@ -90,7 +90,7 @@ export default function Home() {
                 Read More
               </a>
             </div>
-            <div className="p-12 md:order-1">
+            <div className="p-12">
               <img src="/assets/image04.jpg" alt="Constantia" className="w-full h-[400px] object-cover rounded-lg"/>
             </div>
           </div>
