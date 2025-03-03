@@ -7,8 +7,8 @@ import "yet-another-react-lightbox/styles.css";
 const photos = [
   { 
     src: "/assets/jimmy-woo-F3S-U9Le7u4-unsplash.jpg", 
-    width: 1600, 
-    height: 1067,
+    width: 1200, 
+    height: 800,
     key: "jimmy-1" 
   },
   { 
@@ -19,20 +19,20 @@ const photos = [
   },
   { 
     src: "/assets/vizag-explore-e09qAo_mziM-unsplash.jpg", 
-    width: 1600, 
-    height: 900,
+    width: 1200, 
+    height: 675,
     key: "vizag-1"
   },
   { 
     src: "/assets/image04.jpg", 
-    width: 1200, 
-    height: 1200,
+    width: 800, 
+    height: 800,
     key: "image04-1"
   },
   { 
     src: "/assets/jimmy-woo-F3S-U9Le7u4-unsplash.jpg", 
-    width: 1600, 
-    height: 600,
+    width: 1200, 
+    height: 450,
     key: "jimmy-2"
   },
   { 
@@ -48,7 +48,7 @@ export default function Gallery() {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-semibold mb-8 text-center">Our Gallery</h1>
+      <h1 className="text-4xl font-semibold mb-12 text-center text-gray-700">THE VILLA</h1>
       <div className="max-w-[1400px] mx-auto">
         <PhotoAlbum
           photos={photos}
@@ -58,9 +58,8 @@ export default function Gallery() {
             if (containerWidth < 1024) return 3;
             return 4;
           }}
-          spacing={12}
+          spacing={4}
           padding={0}
-          targetRowHeight={250}
           onClick={({ index }) => setIndex(index)}
         />
 
