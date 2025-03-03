@@ -3,20 +3,20 @@ import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-// Sample gallery images with varying sizes and aspect ratios
+// Gallery images from assets with varying sizes for masonry layout
 const photos = [
-  { src: "/assets/image04.jpg", width: 1600, height: 900 },  // 16:9
-  { src: "/assets/image04.jpg", width: 800, height: 1200 },  // 2:3 portrait
-  { src: "/assets/image04.jpg", width: 1600, height: 1067 }, // 3:2
-  { src: "/assets/image04.jpg", width: 1200, height: 1200 }, // 1:1 square
-  { src: "/assets/image04.jpg", width: 1600, height: 600 },  // panorama
-  { src: "/assets/image04.jpg", width: 800, height: 1200 },  // 2:3 portrait
-  { src: "/assets/image04.jpg", width: 1600, height: 900 },  // 16:9
-  { src: "/assets/image04.jpg", width: 1200, height: 1200 }, // 1:1 square
-  { src: "/assets/image04.jpg", width: 1600, height: 1067 }, // 3:2
-  { src: "/assets/image04.jpg", width: 800, height: 1200 },  // 2:3 portrait
-  { src: "/assets/image04.jpg", width: 1600, height: 600 },  // panorama
-  { src: "/assets/image04.jpg", width: 1600, height: 900 },  // 16:9
+  { src: "/assets/jimmy-woo-F3S-U9Le7u4-unsplash.jpg", width: 1600, height: 1067 },  // 3:2 landscape
+  { src: "/assets/violetta-mezei-o0G1EURG9Es-unsplash.jpg", width: 800, height: 1200 },  // 2:3 portrait
+  { src: "/assets/vizag-explore-e09qAo_mziM-unsplash.jpg", width: 1600, height: 900 },  // 16:9 wide
+  { src: "/assets/image04.jpg", width: 1200, height: 1200 },  // 1:1 square
+  { src: "/assets/jimmy-woo-F3S-U9Le7u4-unsplash.jpg", width: 1600, height: 600 },  // panorama
+  { src: "/assets/violetta-mezei-o0G1EURG9Es-unsplash.jpg", width: 800, height: 1200 },  // 2:3 portrait
+  { src: "/assets/vizag-explore-e09qAo_mziM-unsplash.jpg", width: 1600, height: 900 },  // 16:9
+  { src: "/assets/image04.jpg", width: 1200, height: 1200 },  // 1:1 square
+  { src: "/assets/jimmy-woo-F3S-U9Le7u4-unsplash.jpg", width: 1600, height: 1067 },  // 3:2
+  { src: "/assets/violetta-mezei-o0G1EURG9Es-unsplash.jpg", width: 800, height: 1200 },  // 2:3 portrait
+  { src: "/assets/vizag-explore-e09qAo_mziM-unsplash.jpg", width: 1600, height: 600 },  // panorama
+  { src: "/assets/image04.jpg", width: 1600, height: 900 }  // 16:9
 ];
 
 export default function Gallery() {
@@ -36,7 +36,6 @@ export default function Gallery() {
           }}
           spacing={8}
           padding={0}
-          targetRowHeight={300}
           onClick={({ index }) => setIndex(index)}
         />
 
