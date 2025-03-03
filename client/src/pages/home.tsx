@@ -59,36 +59,40 @@ export default function Home() {
       </div>
 
       {/* Accommodation & Location Sections */}
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="w-full">
         {/* Accommodation Section */}
-        <div className="bg-neutral-200 p-12 flex items-center min-h-[400px]">
-          <div className="max-w-md">
-            <h2 className="text-3xl font-semibold mb-4">ACCOMMODATION</h2>
-            <p className="text-gray-700 mb-6">
-              Skydance Villa boasts generous social spaces with multiple large windows and porches that encourage guests to enjoy each other's company and the natural beauty all around. Waking up in one of the six bedrooms, you know exactly where you are when greeted by the Table Mountain Reserve and Kirstenbosch gardens.
-            </p>
-            <a href="/the-villa" className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-2 text-sm font-medium text-primary-foreground">
-              Read More
-            </a>
-          </div>
-          <div className="ml-auto max-w-md">
-            <img src="/assets/image04.jpg" alt="Accommodation" className="h-64 w-auto"/>
+        <div className="bg-neutral-200 w-full">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center min-h-[400px]">
+            <div className="p-12">
+              <img src="/assets/image04.jpg" alt="Accommodation" className="w-full h-[400px] object-cover rounded-lg"/>
+            </div>
+            <div className="p-12 max-w-xl">
+              <h2 className="text-3xl font-semibold mb-4">ACCOMMODATION</h2>
+              <p className="text-gray-700 mb-6">
+                Skydance Villa boasts generous social spaces with multiple large windows and porches that encourage guests to enjoy each other's company and the natural beauty all around. Waking up in one of the six bedrooms, you know exactly where you are when greeted by the Table Mountain Reserve and Kirstenbosch gardens.
+              </p>
+              <a href="/the-villa" className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-2 text-sm font-medium text-primary-foreground">
+                Read More
+              </a>
+            </div>
           </div>
         </div>
 
         {/* Constantia Section */}
-        <div className="bg-gray-700 p-12 flex items-center min-h-[400px]">
-          <div className="max-w-md ml-auto">
-            <img src="/assets/image04.jpg" alt="Constantia" className="h-64 w-auto"/>
-          </div>
-          <div className="max-w-md text-white">
-            <h2 className="text-3xl font-semibold mb-4">CONSTANTIA</h2>
-            <p className="text-gray-200 mb-6">
-              Constantia is famous for its wine valley, where you can visit some of the oldest vineyards of the Cape. Kirstenbosch Botanical Gardens is also less than 50m walking distance from the villa and just a 20-minute drive away is Central Cape Town.
-            </p>
-            <a href="/location" className="inline-flex items-center justify-center rounded-md bg-white text-gray-700 px-6 py-2 text-sm font-medium">
-              Read More
-            </a>
+        <div className="bg-gray-700 w-full">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center min-h-[400px]">
+            <div className="p-12 max-w-xl md:order-2">
+              <h2 className="text-3xl font-semibold mb-4 text-white">CONSTANTIA</h2>
+              <p className="text-gray-200 mb-6">
+                Constantia is famous for its wine valley, where you can visit some of the oldest vineyards of the Cape. Kirstenbosch Botanical Gardens is also less than 50m walking distance from the villa and just a 20-minute drive away is Central Cape Town.
+              </p>
+              <a href="/location" className="inline-flex items-center justify-center rounded-md bg-white text-gray-700 px-6 py-2 text-sm font-medium">
+                Read More
+              </a>
+            </div>
+            <div className="p-12 md:order-1">
+              <img src="/assets/image04.jpg" alt="Constantia" className="w-full h-[400px] object-cover rounded-lg"/>
+            </div>
           </div>
         </div>
       </div>
