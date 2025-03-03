@@ -10,34 +10,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <nav className="fixed w-full z-50 flex justify-center px-4 py-8">
         <div className="bg-white/80 backdrop-blur-sm shadow-lg rounded-full px-12 py-4">
           <div className="flex items-center gap-12">
-            <Link href="/">
-              <span className="text-2xl font-serif cursor-pointer">Skydance Villa</span>
-            </Link>
+            <span className="text-2xl font-serif">Bishopshall</span>
             <div className="hidden md:flex gap-8">
-              <Link href="/">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Home</span>
-              </Link>
-              <Link href="/villa">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Villa</span>
-              </Link>
-              <Link href="/location">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Location</span>
-              </Link>
-              <Link href="/things-to-do">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Things To Do</span>
-              </Link>
-              <Link href="/events">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Events</span>
-              </Link>
-              <Link href="/safaris">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Safaris</span>
-              </Link>
-              <Link href="/gallery">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Gallery</span>
-              </Link>
-              <Link href="/contact">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Contact</span>
-              </Link>
+              <span className="text-sm text-muted-foreground">Home</span>
+              <span className="text-sm text-muted-foreground">Villa</span>
+              <span className="text-sm text-muted-foreground">Location</span>
+              <span className="text-sm text-muted-foreground">Things To Do</span>
+              <span className="text-sm text-muted-foreground">Events</span>
+              <span className="text-sm text-muted-foreground">Safaris</span>
+              <span className="text-sm text-muted-foreground">Gallery</span>
+              <span className="text-sm text-muted-foreground">Contact</span>
             </div>
           </div>
         </div>
