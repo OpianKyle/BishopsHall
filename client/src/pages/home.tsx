@@ -9,18 +9,13 @@ export default function Home() {
 
   return (
     <div>
-      {/* Hero Video Section */}
+      {/* Hero Section */}
       <div className="relative h-screen">
-        <video 
+        <img 
+          src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198"
+          alt="Luxury Interior"
           className="w-full h-full object-cover"
-          autoPlay 
-          loop 
-          muted 
-          playsInline
-          poster="https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
-        >
-          <source src="/luxury-estate.mp4" type="video/mp4" />
-        </video>
+        />
       </div>
 
       {/* Introduction Section */}
@@ -28,8 +23,8 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198"
-              alt="Luxury Interior"
+              src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+              alt="Luxury Villa"
               className="rounded-lg shadow-xl"
             />
           </div>
@@ -57,7 +52,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold mb-12">Featured Properties</h2>
           {isLoading ? (
-            <div className="text-center">Loading...</div>
+            <div className="text-center">Loading properties...</div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {properties?.map((property) => (
