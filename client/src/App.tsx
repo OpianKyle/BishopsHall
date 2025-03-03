@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Layout } from "@/components/Layout";
 import Home from "@/pages/home";
 import PropertyPage from "@/pages/property";
+import Gallery from "@/pages/gallery";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -13,6 +14,7 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/property/:id" component={PropertyPage} />
+        <Route path="/gallery" component={Gallery} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
