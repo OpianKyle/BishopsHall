@@ -1,0 +1,245 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Cape Town Luxury Villas, Villas in Cape Town</title>
+		<meta name="description" content="Skydance villa lays sprawled out in splendour on the highest hills of Constantia, a well-to-do suburb next to Kirstenbosch Gardens.">
+		<meta name="keywords" content="cape town luxury villas, villas in cape town">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<!-- for Google -->
+		<meta name="author" content="WildWeb">
+		<meta name="copyright" content="WildWeb - www.wildweb.co.za">
+		<meta name="application-name" content="WildWeb">
+
+		<!-- for Facebook -->          
+		<meta property="og:title" content="Skydance Villa">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="https://skydancevilla.co.za/img/banner-1-d.jpg">
+		<meta property="og:url" content="http://skydancevilla.co.za/">
+		<meta property="og:description" content="Skydance villa lays sprawled out in splendour on the highest hills of Constantia, a well-to-do suburb next to Kirstenbosch Gardens.">
+
+		<!-- for Twitter -->          
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Skydance Villa">
+		<meta name="twitter:description" content="Skydance villa lays sprawled out in splendour on the highest hills of Constantia, a well-to-do suburb next to Kirstenbosch Gardens.">
+		<meta name="twitter:image" content="https://skydancevilla.co.za/img/banner-1-d.jpg">
+
+		<!-- favicon stuff -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+
+		<link rel="manifest" href="/favicons/manifest.json">
+		<link rel="shortcut icon" href="/favicons/favicon.ico">
+		<meta name="apple-mobile-web-app-title" content="WildWeb">
+		<meta name="application-name" content="WildWeb">
+		<meta name="msapplication-TileColor" content="#ffc40d">
+		<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<!-- styles -->
+		<link href="https://fonts.googleapis.com/css?family=Muli:600|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="/css/build-1725034914.css">
+		
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-89DV5R7RV4"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-89DV5R7RV4');
+		</script>
+		
+	</head>
+	<body>
+
+
+	<header id="nav">
+		<div class="container">
+        	<div id="logo">
+				<h1><a href="/">Skydance Villa</a></h1>
+		    </div>
+			<div id="hamburger"><img src="/img/menu.svg" alt="menu icon"></div>
+			<div id="close"><img src="/img/close.svg" alt="close menu"></div>
+
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/the-villa">Villa</a></li>
+				<li><a href="/location">Location</a></li>
+				<li><a href="/things-to-do">Things To Do</a></li>
+				<li><a href="/events">Events</a></li>
+                <li><a href="/skydance-safaris">Safaris</a></li>
+				<li><a href="/gallery">Gallery</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	</header> <!-- #nav -->
+
+
+
+
+
+
+
+		
+
+	<!-- BANNER -->
+	<div class="heroBanner">
+		<video class="displayDesktop" src="/img/vid-d.mp4" preload="" loop="" muted="" autoplay="" poster="/img/banner-1-d.jpg" playsinline></video> 
+		<video class="displayMobile" src="/img/vid-m.mp4" preload="" loop="" muted="" autoplay="" poster="/img/banner-1-m.jpg" playsinline></video> 
+	</div>
+
+
+
+	<div id="intro" class="fullWidth">
+		<div class="contained1200">
+			<div class="colHalf">
+				<img src="/img/intro-img.jpg" alt="">
+			</div>
+			<div class="colHalf normalText">
+				<h2>Luxury is a state of mind</h2>
+				<p>
+					Skydance villa lays sprawled out in splendour on the highest hills of Constantia, a well-to-do suburb next to Kirstenbosch Gardens. The heart feels at home here. Waking up to a vine-scented breeze. The sound of your loved-ones echoing the joy of the morning. Bare toes cushioned in soft grass then dipped into a refreshing pool. Lazy days filled with laughter. Shared adventures through gardens, vineyards and Atlantic shores. Skydance Villa is a place to unwind and reconnect with those who matter. </p>
+					<a rel="gallery1" href="https://www.youtube.com/watch?v=-OnScNR8idU&feature=youtu.be" target="_blank" class="button swipebox">Watch Video<span></span></a>
+					<a href="https://goo.gl/C8AWiS" target="_blank" rel="noopener" class="button">View 360&deg; Tour<span></span></a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- TEXT & IMG -->
+	<div class="textAndImage bgBrown">
+		<div class="imageSide">
+			<div id="accommoImg"></div>
+		</div>
+		<div class="normalText">
+			<h2>Accommodation</h2>
+			<p>Skydance Villa boasts generous social spaces with multiple large windows and porches that encourage guests to enjoy each other’s company and the natural beauty all around. Waking up in one of the six bedrooms, you know exactly where you are when greeted by the Table Mountain Reserve and Kirstenbosch gardens which are always in full view. It is the perfect destination for a family holiday and booked on exclusive-use only. </p>
+			<a href="/the-villa" class="button btnBrownBg">Read More<span></span></a>
+		</div>
+	</div>
+
+	<!-- TEXT & IMG -->
+	<div class="textAndImage bgBlue altFloat">
+		<div class="imageSide">
+			<div id="constantiaImg"></div>
+		</div>
+		<div class="normalText">
+			<h2>Constantia</h2>
+			<p>Constantia is famous for its wine valley, where you can visit some of the oldest vineyards of the Cape. Kirstenbosch Botanical Gardens is also less than 50m walking distance from the villa and just a 20-minute drive away is Central Cape Town, the Cape Beaches as well as the Victoria and Alfred Waterfront.</p>
+			<a href="/location" class="button btnBlueBg">Read More<span></span></a>
+		</div>
+	</div>
+
+
+	<!-- AMENITIES -->
+	<div id="iconsSection">
+		<div class="titleH2">
+			<h2>Villa Amenities</h2>
+		</div>
+		<div class="contained1200">
+			<div class="iconItem">
+					<img src="/img/icon-pool.png" alt="">
+					<span>Swimming Pool</span>
+			</div>
+
+			<div class="iconItem">
+					<img src="/img/icon-entertainment.png" alt="">
+					<span>Entertainment Room</span>
+			</div>
+
+			<div class="iconItem">
+					<img src="/img/icon-gym.png" alt="">
+					<span>Gym</span>
+			</div>
+
+			<div class="iconItem">
+					<img src="/img/icon-study.png" alt="">
+					<span>Study</span>
+			</div>
+
+			<div class="iconItem">
+					<img src="/img/icon-wifi.png" alt="">
+					<span>Wifi</span>
+			</div>
+			<div class="iconItem">
+					<img src="/img/icon-children.png" alt="">
+					<span>Child Friendly</span>
+			</div>
+			<div class="iconItem">
+					<img src="/img/icon-safe.png" alt="">
+					<span>Electronic Safe</span>
+			</div>
+			<div class="iconItem">
+					<img src="/img/icon-tv.png" alt="">
+					<span>Satellite TV</span>
+			</div>
+			<div class="iconItem">
+					<img src="/img/icon-fireplace.png" alt="">
+					<span>Multiple Fireplaces</span>
+			</div>
+			<div class="iconItem">
+					<img src="/img/icon-parking.png" alt="">
+					<span>Ample Secure Parking</span>
+			</div>
+		</div>
+	</div>
+
+			
+
+
+
+		<footer>
+			<div id="footerContainer">
+				<div class="colThird">
+					<ul>
+						<li>&copy; 2024 Skydance Villa</li>
+						<li>Website by <a href="https://wildweb.co.za" target="_blank">WildWeb</a></li>
+						<!-- <li class="socialIcons">
+							<a href="https://www.facebook.com/SkydanceVilla/" target="_blank"><img src="/img/icon-fb.png" alt=""></a>
+							<a href="https://www.instagram.com/skydancevilla/" target="_blank"><img src="/img/icon-insta.png" alt=""></a>
+						</li> -->
+					</ul>
+				</div>
+				<div class="colThird">
+					&nbsp; 
+				</div>
+				<div class="colThird">
+					<ul style="text-align: right">
+                        <li><a href="mailto:booking@skydancevilla.co.za">booking@skydancevilla.co.za</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+		
+		<script src="/js/source/vendor/jquery-2.2.4.min.js"></script>
+		<script src="/js/build-1725034914.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-6433975-41', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+
+
+	</body>
+</html>
