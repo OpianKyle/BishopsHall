@@ -1,17 +1,40 @@
 import { useQuery } from "@tanstack/react-query";
 import { PropertyCard } from "@/components/PropertyCard";
 import type { Property } from "@shared/schema";
+import {
+  Waves,
+  MonitorPlay,
+  Dumbbell,
+  BookOpen,
+  Wifi,
+  Baby,
+  Lock,
+  Tv,
+  Flame
+} from "lucide-react";
 
 export default function Home() {
   const { data: properties, isLoading } = useQuery<Property[]>({
     queryKey: ["/api/properties"],
   });
 
+  const amenities = [
+    { icon: Waves, label: "Swimming Pool" },
+    { icon: MonitorPlay, label: "Entertainment Room" },
+    { icon: Dumbbell, label: "Gym" },
+    { icon: BookOpen, label: "Study" },
+    { icon: Wifi, label: "Wifi" },
+    { icon: Baby, label: "Child Friendly" },
+    { icon: Lock, label: "Electronic Safe" },
+    { icon: Tv, label: "Satellite TV" },
+    { icon: Flame, label: "Multiple Fireplaces" }
+  ];
+
   return (
     <div>
       {/* Hero Image Section */}
       <div className="relative h-screen">
-        <img 
+        <img
           src="/assets/image04.jpg"
           alt="Luxury Villa Interior"
           className="w-full h-full object-cover"
@@ -23,7 +46,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <img 
+              <img
                 src="/assets/image04.jpg"
                 alt="Villa Interior"
                 className="rounded-lg shadow-xl"
@@ -32,21 +55,21 @@ export default function Home() {
             <div className="space-y-6">
               <h2 className="text-3xl font-semibold">Luxury is a state of mind</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Skydance villa lays sprawled out in splendour on the highest hills of Constantia, 
-                a well-to-do suburb next to Kirstenbosch Gardens. The heart feels at home here. 
-                Waking up to a vine-scented breeze. The sound of your loved-ones echoing the joy 
+                Skydance villa lays sprawled out in splendour on the highest hills of Constantia,
+                a well-to-do suburb next to Kirstenbosch Gardens. The heart feels at home here.
+                Waking up to a vine-scented breeze. The sound of your loved-ones echoing the joy
                 of the morning. Bare toes cushioned in soft grass then dipped into a refreshing pool.
               </p>
               <div className="flex gap-4">
-                <a 
-                  href="https://www.youtube.com/watch?v=-OnScNR8idU" 
-                  target="_blank" 
+                <a
+                  href="https://www.youtube.com/watch?v=-OnScNR8idU"
+                  target="_blank"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-8 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
                 >
                   Watch Video
                 </a>
-                <a 
-                  href="https://goo.gl/C8AWiS" 
+                <a
+                  href="https://goo.gl/C8AWiS"
                   target="_blank"
                   className="inline-flex items-center justify-center rounded-md border border-input px-8 py-3 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground"
                 >
@@ -64,7 +87,7 @@ export default function Home() {
         <div className="bg-neutral-200 w-full">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center min-h-[400px]">
             <div className="p-12">
-              <img src="/assets/image04.jpg" alt="Accommodation" className="w-full h-[400px] object-cover rounded-lg"/>
+              <img src="/assets/image04.jpg" alt="Accommodation" className="w-full h-[400px] object-cover rounded-lg" />
             </div>
             <div className="p-12 max-w-xl">
               <h2 className="text-3xl font-semibold mb-4">ACCOMMODATION</h2>
@@ -91,7 +114,7 @@ export default function Home() {
               </a>
             </div>
             <div className="p-12">
-              <img src="/assets/image04.jpg" alt="Constantia" className="w-full h-[400px] object-cover rounded-lg"/>
+              <img src="/assets/image04.jpg" alt="Constantia" className="w-full h-[400px] object-cover rounded-lg" />
             </div>
           </div>
         </div>
@@ -101,16 +124,12 @@ export default function Home() {
       <div className="bg-primary/5 py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold mb-12 text-center">Villa Amenities</h2>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
-            {[
-              { icon: "/img/icon-pool.png", label: "Swimming Pool" },
-              { icon: "/img/icon-entertainment.png", label: "Entertainment Room" },
-              { icon: "/img/icon-gym.png", label: "Gym" },
-              { icon: "/img/icon-wifi.png", label: "Wifi" },
-              { icon: "/img/icon-safe.png", label: "Electronic Safe" },
-            ].map((amenity) => (
-              <div key={amenity.label} className="text-center">
-                <img src={amenity.icon} alt={amenity.label} className="h-12 w-12 mx-auto mb-2" />
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
+            {amenities.map((amenity) => (
+              <div key={amenity.label} className="flex flex-col items-center text-center gap-2">
+                <div className="h-12 w-12 flex items-center justify-center rounded-full bg-primary/10">
+                  <amenity.icon className="h-6 w-6 text-primary" />
+                </div>
                 <span className="text-sm text-muted-foreground">{amenity.label}</span>
               </div>
             ))}
