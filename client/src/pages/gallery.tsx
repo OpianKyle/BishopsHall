@@ -53,9 +53,20 @@ export default function Gallery() {
         <PhotoAlbum
           photos={photos}
           layout="columns"
-          columns={4}
           spacing={4}
           padding={0}
+          renderPhoto={({ photo, wrapperStyle, renderDefaultPhoto }) => (
+            <div style={{ ...wrapperStyle, position: 'relative' }}>
+              {renderDefaultPhoto({ wrapped: true })}
+            </div>
+          )}
+          breakpoints={[320, 640, 768, 1024, 1280]}
+          columns={(containerWidth) => {
+            if (containerWidth < 640) return 1;
+            if (containerWidth < 768) return 2;
+            if (containerWidth < 1024) return 3;
+            return 4;
+          }}
           onClick={({ index }) => setIndex(index)}
         />
 
