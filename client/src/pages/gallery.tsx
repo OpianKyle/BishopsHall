@@ -52,12 +52,8 @@ export default function Gallery() {
       <div className="max-w-[1400px] mx-auto">
         <PhotoAlbum
           photos={photos}
-          layout="masonry"
-          columns={(containerWidth) => {
-            if (containerWidth < 640) return 2;
-            if (containerWidth < 1024) return 3;
-            return 4;
-          }}
+          layout="columns"
+          columns={4}
           spacing={4}
           padding={0}
           onClick={({ index }) => setIndex(index)}
