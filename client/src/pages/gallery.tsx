@@ -54,12 +54,13 @@ export default function Gallery() {
           photos={photos}
           layout="masonry"
           columns={(containerWidth) => {
-            if (containerWidth < 640) return 1;
-            if (containerWidth < 1024) return 2;
-            return 3;
+            if (containerWidth < 640) return 2;
+            if (containerWidth < 1024) return 3;
+            return 4;
           }}
-          spacing={8}
+          spacing={12}
           padding={0}
+          targetRowHeight={250}
           onClick={({ index }) => setIndex(index)}
         />
 
