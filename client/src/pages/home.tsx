@@ -12,8 +12,8 @@ export default function Home() {
       {/* Hero Image Section */}
       <div className="relative h-screen">
         <img 
-          src="/img/banner-1-d.jpg"
-          alt="Luxury Villa"
+          src="/attached_assets/image_1740991411876.png"
+          alt="Luxury Villa Interior"
           className="w-full h-full object-cover"
         />
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/img/intro-img.jpg"
+                src="/attached_assets/image_1740991411876.png"
                 alt="Villa Interior"
                 className="rounded-lg shadow-xl"
               />
