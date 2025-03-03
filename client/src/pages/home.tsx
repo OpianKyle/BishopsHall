@@ -1,6 +1,3 @@
-import { useQuery } from "@tanstack/react-query";
-import { PropertyCard } from "@/components/PropertyCard";
-import type { Property } from "@shared/schema";
 import {
   Waves,
   MonitorPlay,
@@ -14,10 +11,6 @@ import {
 } from "lucide-react";
 
 export default function Home() {
-  const { data: properties, isLoading } = useQuery<Property[]>({
-    queryKey: ["/api/properties"],
-  });
-
   const amenities = [
     { icon: Waves, label: "Swimming Pool" },
     { icon: MonitorPlay, label: "Entertainment Room" },
@@ -134,22 +127,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-
-      {/* Featured Properties */}
-      <div className="bg-primary/5 py-20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-semibold mb-12">Featured Properties</h2>
-          {isLoading ? (
-            <div className="text-center">Loading properties...</div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {properties?.map((property) => (
-                <PropertyCard key={property.id} property={property} />
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </div>
