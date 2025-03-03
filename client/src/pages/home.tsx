@@ -9,18 +9,13 @@ export default function Home() {
 
   return (
     <div>
-      {/* Hero Video Section */}
+      {/* Hero Image Section */}
       <div className="relative h-screen">
-        <video 
+        <img 
+          src="/img/banner-1-d.jpg"
+          alt="Luxury Villa"
           className="w-full h-full object-cover"
-          autoPlay 
-          loop 
-          muted 
-          playsInline
-          poster="/img/banner-1-d.jpg"
-        >
-          <source src="/img/vid-d.mp4" type="video/mp4" />
-        </video>
+        />
       </div>
 
       {/* Introduction Section */}
@@ -83,7 +78,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       {/* Featured Properties */}
       <div className="bg-primary/5 py-20">
         <div className="container mx-auto px-4">
