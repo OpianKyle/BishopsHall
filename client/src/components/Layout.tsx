@@ -17,27 +17,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Link href="/">
                 <span className="text-sm hover:text-primary transition-colors cursor-pointer">Home</span>
               </Link>
-              <Link href="/villa">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Villa</span>
-              </Link>
-              <Link href="/location">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Location</span>
-              </Link>
-              <Link href="/things-to-do">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Things To Do</span>
-              </Link>
-              <Link href="/events">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Events</span>
-              </Link>
-              <Link href="/safaris">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Safaris</span>
-              </Link>
-              <Link href="/gallery">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Gallery</span>
-              </Link>
-              <Link href="/contact">
-                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Contact</span>
-              </Link>
             </div>
           </div>
         </div>
