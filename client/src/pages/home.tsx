@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Image Section */}
       <div className="relative h-screen">
         <img 
-          src="client/src/assets/image04.jpg"
+          src="/client/assets/image04.jpg"
           alt="Luxury Villa Interior"
           className="w-full h-full object-cover"
         />
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="client/src/assets/image04.jpg"
+                src="/client/assets/image04.jpg"
                 alt="Villa Interior"
                 className="rounded-lg shadow-xl"
               />
