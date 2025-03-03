@@ -12,7 +12,7 @@ export default function Home() {
       {/* Hero Image Section */}
       <div className="relative h-screen">
         <img 
-          src="/attached_assets/image_1740991411876.png"
+          src="client/src/assets/image04.jpg"
           alt="Luxury Villa Interior"
           className="w-full h-full object-cover"
         />
@@ -24,7 +24,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/attached_assets/image_1740991411876.png"
+                src="client/src/assets/image04.jpg"
                 alt="Villa Interior"
                 className="rounded-lg shadow-xl"
               />
@@ -78,6 +78,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       {/* Featured Properties */}
       <div className="bg-primary/5 py-20">
         <div className="container mx-auto px-4">
