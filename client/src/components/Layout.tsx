@@ -10,7 +10,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <nav className="fixed w-full z-50 flex justify-center px-4 py-8">
         <div className="bg-white/80 backdrop-blur-sm shadow-lg rounded-full px-12 py-4">
           <div className="flex items-center gap-12">
-            <span className="text-2xl font-serif">Bishopshall</span>
+            <span className="text-2xl font-serif">Bishops Hall</span>
             <div className="hidden md:flex gap-8">
               <span className="text-sm text-muted-foreground">Home</span>
               <span className="text-sm text-muted-foreground">Villa</span>
