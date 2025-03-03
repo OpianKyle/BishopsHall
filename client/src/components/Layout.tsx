@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { useState } from "react";
+import { Instagram, Facebook, Twitter, Linkedin } from "lucide-react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,24 +45,23 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <main>{children}</main>
       <footer className="bg-primary/5 py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <h3 className="font-serif text-xl mb-4">Skydance Villa</h3>
-              <p className="text-sm text-muted-foreground">
-                Experience luxury living at its finest in Cape Town's most prestigious location.
-              </p>
+          <div className="flex flex-col items-center gap-6">
+            <div className="flex gap-8">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Instagram className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Facebook className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Twitter className="h-6 w-6" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Linkedin className="h-6 w-6" />
+              </a>
             </div>
-            <div>
-              <h4 className="font-medium mb-4">Contact</h4>
-              <p className="text-sm text-muted-foreground">
-                Email: booking@skydancevilla.co.za
-              </p>
-            </div>
-            <div className="text-right">
-              <p className="text-sm text-muted-foreground">
-                © 2024 Skydance Villa<br />
-                Website by <a href="https://wildweb.co.za" target="_blank" className="hover:text-primary">WildWeb</a>
-              </p>
+            <div className="text-center text-sm text-muted-foreground">
+              <p>© 2024 All rights reserved.</p>
             </div>
           </div>
         </div>
