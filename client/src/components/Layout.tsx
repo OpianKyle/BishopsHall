@@ -11,32 +11,32 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="bg-white/80 backdrop-blur-sm shadow-lg rounded-full px-12 py-4">
           <div className="flex items-center gap-12">
             <Link href="/">
-              <a className="text-2xl font-serif">Skydance Villa</a>
+              <span className="text-2xl font-serif cursor-pointer">Skydance Villa</span>
             </Link>
             <div className="hidden md:flex gap-8">
               <Link href="/">
-                <a className="text-sm hover:text-primary transition-colors">Home</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Home</span>
               </Link>
               <Link href="/villa">
-                <a className="text-sm hover:text-primary transition-colors">Villa</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Villa</span>
               </Link>
               <Link href="/location">
-                <a className="text-sm hover:text-primary transition-colors">Location</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Location</span>
               </Link>
               <Link href="/things-to-do">
-                <a className="text-sm hover:text-primary transition-colors">Things To Do</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Things To Do</span>
               </Link>
               <Link href="/events">
-                <a className="text-sm hover:text-primary transition-colors">Events</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Events</span>
               </Link>
               <Link href="/safaris">
-                <a className="text-sm hover:text-primary transition-colors">Safaris</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Safaris</span>
               </Link>
               <Link href="/gallery">
-                <a className="text-sm hover:text-primary transition-colors">Gallery</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Gallery</span>
               </Link>
               <Link href="/contact">
-                <a className="text-sm hover:text-primary transition-colors">Contact</a>
+                <span className="text-sm hover:text-primary transition-colors cursor-pointer">Contact</span>
               </Link>
             </div>
           </div>
